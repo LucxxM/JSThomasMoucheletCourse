@@ -4,9 +4,9 @@ let id = 0;
 
 btn.addEventListener('click', () => {
     const toast = document.createElement('div');
-    id++;
     const btnToast = document.createElement('button');
     const toastBox = document.querySelector('#toast-box');
+    id++;
     btnToast.innerHTML = 'X';
     toast.classList.add('toast');
     toast.innerHTML = `<p>Toast ${id}</p>`;
