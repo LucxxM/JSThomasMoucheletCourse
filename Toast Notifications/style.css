@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+
+.toast{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.toast > button{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+
+#toast-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  
+ 
+}

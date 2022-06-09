@@ -1,0 +1,12 @@
+#color{
+    color: white;
+    mix-blend-mode: difference;
+}
+
+#colorBtn{
+    background: #0986fb;
+    color: wheat;
+    mix-blend-mode: difference;
+    padding: 1em;
+    border-radius: 50px;
+}
