@@ -1,9 +1,9 @@
 setInterval(snowFall, 20);
 
 function snowFall() {
-  const snowDrop = document.createElement('p');
+	
+  	const snowDrop = document.createElement('p');
   
-	// waterDrop.classList.add('fas');
 	snowDrop.innerText = '❄️';
 	snowDrop.classList.add('fa-tint');
 	snowDrop.style.left = Math.random() * window.innerWidth + 'px';

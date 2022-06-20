@@ -12,24 +12,23 @@ btn.addEventListener('click', () => {
     toast.innerHTML = `<p>Toast ${id}</p>`;
     toast.appendChild(btnToast);
     toastBox.appendChild(toast);
-    btnToast.addEventListener('click', (e) => {
-        toast.remove();
+    btnToast.addEventListener('click', () => {
+        setTimeout(() => {
+            toast.style.transform = 'translateX(100%)';
+            setTimeout(() => {
+                toast.remove();
+            }, 1000);
+        }, 100);
     });
-
+    
     setTimeout(() => {
-        toast.remove();
+        toast.style.transform = 'translateX(100%)';
+        setTimeout(() => {
+            toast.remove();
+        }, 1000);
     }, 5000);
 }   
 );
-
-
-
-
-
-
-
-
-
 
 
 
